@@ -17,7 +17,7 @@ A simple web-based attendance management system built using Flask, designed for 
 
 ## Project Structure
 
-Attendance-Management-System/
+Attendance-Management-System/  
 │  
 ├── app.py                   
 ├── templates/               # HTML files  
