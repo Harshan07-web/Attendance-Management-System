@@ -20,11 +20,11 @@ A simple web-based attendance management system built using Flask, designed for 
 Attendance-Management-System/
 │  
 ├── app.py                   
-├── templates/               # HTML files
-├── static/                  # CSS/JS/Images
-├── database/                # SQL files
-├── requirements.txt         # Dependencies 
-├── README.md                # Project description
+├── templates/               # HTML files  
+├── static/                  # CSS/JS/Images  
+├── database/                # SQL files  
+├── requirements.txt         # Dependencies   
+├── README.md                # Project description  
 └── LICENSE                    
 
 ---
