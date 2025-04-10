@@ -18,14 +18,14 @@ A simple web-based attendance management system built using Flask, designed for 
 ## Project Structure
 
 Attendance-Management-System/
-│
-├── app.py                 
-├── templates/             # HTML files
-├── static/                # CSS/JS/Images
-├── database/              # SQL files
-├── requirements.txt       # Dependencies 
-├── README.md              # Project description
-└── LICENSE                  
+│  
+├── app.py                   
+├── templates/               # HTML files
+├── static/                  # CSS/JS/Images
+├── database/                # SQL files
+├── requirements.txt         # Dependencies 
+├── README.md                # Project description
+└── LICENSE                    
 
 ---
 
@@ -57,11 +57,11 @@ Attendance-Management-System/
 
 ##To-Do / Future Enhancements
 
--Student login with password authentication<br>
--Attendance analytics (graphs, percentages)<br>
--CSV/PDF export of attendance data
--Admin panel for managing users and courses
--Add a faculty attendance 
+-Student login with password authentication  
+-Attendance analytics (graphs, percentages)  
+-CSV/PDF export of attendance data  
+-Admin panel for managing users and courses  
+-Add a faculty attendance   
 
 ---
 
