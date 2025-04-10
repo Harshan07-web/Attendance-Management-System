@@ -4,14 +4,14 @@ from datetime import date
 current_date = date.today().isoformat()
 
 app = Flask(__name__)
-app.secret_key = "supersecretkey123" 
+app.secret_key = "" 
 
 # MySQL Database Configuration
-app.config['MYSQL_HOST'] = 'localhost'  
-app.config['MYSQL_USER'] = 'root'  
-app.config['MYSQL_PASSWORD'] = 'Harshan17'  
-app.config['MYSQL_DB'] = 'attendancemanagement'  
-app.config['MYSQL_CURSORCLASS'] = 'DictCursor'  
+app.config['MYSQL_HOST'] = ''  
+app.config['MYSQL_USER'] = ''  
+app.config['MYSQL_PASSWORD'] = ''  
+app.config['MYSQL_DB'] = ''  
+app.config['MYSQL_CURSORCLASS'] = ''  
 
 mysql = MySQL(app)
 
