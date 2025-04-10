@@ -4,7 +4,7 @@ A simple web-based attendance management system built using Flask, designed for 
 
 ---
 
-## Features
+## 🚀 Features
 
 - Faculty login and dashboard
 - Mark attendance for students by course
@@ -15,7 +15,16 @@ A simple web-based attendance management system built using Flask, designed for 
 
 ---
 
-## Project Structure
+## 🧠 Technologies Used
+
+- **Python**
+- **Flask**
+- **MySQL**
+- **HTML & CSS**
+
+---
+
+## 📁 Project Structure
 
 Attendance-Management-System/  
 │  
@@ -29,33 +38,33 @@ Attendance-Management-System/
 
 ---
 
-## Setup Instructions
+## 🧪 Setup Instructions
 
-1. *Clone the repository*
+1. **Clone the repository**
    
    git clone https://github.com/Harshan07-web/Attendance-Management-System.git
    cd Attendance-Management-System
 
-2. *Create virtual environment (optional but recommended)*
+2. **Create virtual environment (optional but recommended)**
 
     python -m venv venv
     venv\Scripts\activate   # On Windows
 
-3. *Install dependencies*
+3. **Install dependencies**
    
     pip install -r requirements.txt
 
-4. *Set up the database*
+4. **Set up the database**
 
     Execute the SQL scripts in /database to create and populate the database tables (using SQLite or DB browser).
 
-5. *Run the application*
+5. **Run the application**
 
     python app.py
 
 ---
 
-##To-Do / Future Enhancements
+## 📚 To-Do / Future Enhancements
 
 -Student login with password authentication  
 -Attendance analytics (graphs, percentages)  
@@ -65,7 +74,7 @@ Attendance-Management-System/
 
 ---
 
-##License
+## License
 
 -This project is licensed under the MIT License.
 
