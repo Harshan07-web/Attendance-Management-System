@@ -57,8 +57,8 @@ Attendance-Management-System/
 
 ##To-Do / Future Enhancements
 
--Student login with password authentication
--Attendance analytics (graphs, percentages)
+-Student login with password authentication<br>
+-Attendance analytics (graphs, percentages)<br>
 -CSV/PDF export of attendance data
 -Admin panel for managing users and courses
 -Add a faculty attendance 
