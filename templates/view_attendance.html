@@ -1,0 +1,37 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h2>View Your Attendance</h2>
+        <form method="POST">
+            <label for="student_id">Student ID:</label>
+            <input type="text" name="student_id" required>
+        <br>
+            <label for="department_id">Department ID:</label>
+            <input type="text" name="department_id" required>
+        
+            <button type="submit">View Attendance</button>
+        </form>
+        
+        {% if attendance_data %}
+            <h3>Attendance Records</h3>
+            <table border="1">
+                <tr>
+                    <th>Course</th>
+                    <th>Status</th>
+                    <th>Date</th>
+                </tr>
+                {% for record in attendance_data %}
+                <tr>
+                    <td>{{ record.course_name }}</td>
+                    <td>{{ record.status }}</td>
+                    <td>{{ record.date }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        {% elif request.method == 'POST' %}
+            <p>No attendance records found or student not found.</p>
+        {% endif %}
+    </body>
+</html>

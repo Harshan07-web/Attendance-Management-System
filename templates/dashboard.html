@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>Welcome, {{ username }}</h2>
+    <p>Department ID: {{ department_id }}</p>
+
+    <h3>Choose an Action:</h3>
+    <a href="{{ url_for('mark_attendance') }}"><button>Mark Attendance</button></a>
+    <a href="{{ url_for('view_attendance') }}"><button>View Attendance</button></a>
+
+    <br><br>
+    <a href="{{ url_for('logout') }}"><button>Logout</button></a>
+</body>
+</html>
+

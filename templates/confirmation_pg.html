@@ -1,0 +1,11 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <h3>Attendance Successfully submitted for course : {{cname}} on {{attendance_date}} by {{fname}} from {{dname}} department</h3>
+        <a href="{{url_for('mark_attendance')}}"><button>back to mark attendance</button></a><br><br>
+        <a href="{{url_for('home')}}"><button>back to home</button></a><br><br>
+        <a href="{{ url_for('logout') }}"><button>Logout</button></a>
+    </body>
+</html>
